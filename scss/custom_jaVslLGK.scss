@@ -1,0 +1,22 @@
+/* 
+Compile this file to css/custom_jaVslLGK.css using any SCSS preprocessor. 
+More information here: https://slides.gitbook.io/manual/scss
+*/
+
+@import "mixins.scss"; 
+@import "variables.scss";
+@import "variables-custom.scss";
+
+/* COMING SOON (#1) */
+@media (max-width: 1023px){
+    .btn-142[data-slider-id="shop-slider"]{
+        top:unset;
+        bottom:-10px;
+    }
+    .btn-142[data-slider-id="shop-slider"].slider-prev {
+        transform: translateX(calc(-50% - 100px));
+    }
+    .btn-142[data-slider-id="shop-slider"].slider-next {
+        transform: translateX(calc(50% + 100px));
+    }
+}

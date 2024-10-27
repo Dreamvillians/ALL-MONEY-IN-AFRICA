@@ -1,0 +1,432 @@
+/* 
+Compile this file to css/custom_rLs5Jxpb.css using any SCSS preprocessor. 
+More information here: https://slides.gitbook.io/manual/scss
+*/
+
+@import "mixins.scss"; 
+@import "variables.scss";
+@import "variables-custom.scss";
+
+/* AMI HEADER (#1) */
+.background {
+    position: absolute; /* Position it absolutely */
+    top: 0; /* Align to the top of the page */
+    left: 0; /* Align to the left of the page */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: hidden; /* Prevents overflow */
+    z-index: -1; /* Set behind other content */
+}
+.video-background {
+    min-width: 100%; /* Minimum width of the video */
+    min-height: 100%; /* Minimum height of the video */
+    width: auto; /* Allow for auto width */
+    height: auto; /* Allow for auto height */
+    position: absolute; /* Absolutely position the video */
+    top: 50%; /* Center the video vertically */
+    left: 50%; /* Center the video horizontally */
+    transform: translate(-50%, -50%); /* Use transform to perfectly center */
+    object-fit: cover; /* Cover the whole area without stretching */
+}
+
+/* UPCOMING RELEASES (#2) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-96-bddfb301"] */
+.slide[data-cid="slide-96-bddfb301"]{
+  .music-96{
+    .player {
+      &.pause{
+        .play{display:block;}
+        .pause{display:none;}
+      }
+      .play{display:none;}
+      .pause{display:block;}
+      .playpause {
+        display:inline-flex;
+        justify-content:center;
+        align-items:center;
+        flex-shrink:0;
+        width:27px;
+        height:27px;
+        cursor: pointer;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.101421), 0px 1px 2px rgba(0, 0, 0, 0.101421);
+        img{
+          width:13px;
+          height:13px;
+        }
+      }
+      .trackinfo{
+        display:flex;
+        justify-content:space-between;
+        align-items:baseline;
+      }
+      .scrubber {
+        margin-top:17px;
+        .bar {
+          position:relative;
+          border-bottom:1px solid rgba(#ffffff,0.3);
+          height: 3px;
+          border-radius: 2px;
+          cursor: pointer;
+          transition:background-color 0.2s;
+          &:hover{
+            background:rgba(#ffffff,0.5);
+          }
+        }
+        .played {
+          position:absolute;
+          left:0;
+          top:0;
+          bottom:-1px;
+          background: #ffffff;
+          border-radius: 2px;
+        }
+      }
+    }
+  }
+  &.whiteSlide .music-96 .scrubber {
+    .bar {
+      border-bottom: 1px solid rgba(#202020,.2);
+    }
+    .played {
+      background: rgba(#202020,.5);
+    }
+  }
+}
+
+/* KOKAINE'S MUSIC (#3) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-96-b887efed"] */
+.slide[data-cid="slide-96-b887efed"]{
+  .music-96{
+    .player {
+      &.pause{
+        .play{display:block;}
+        .pause{display:none;}
+      }
+      .play{display:none;}
+      .pause{display:block;}
+      .playpause {
+        display:inline-flex;
+        justify-content:center;
+        align-items:center;
+        flex-shrink:0;
+        width:27px;
+        height:27px;
+        cursor: pointer;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.101421), 0px 1px 2px rgba(0, 0, 0, 0.101421);
+        img{
+          width:13px;
+          height:13px;
+        }
+      }
+      .trackinfo{
+        display:flex;
+        justify-content:space-between;
+        align-items:baseline;
+      }
+      .scrubber {
+        margin-top:17px;
+        .bar {
+          position:relative;
+          border-bottom:1px solid rgba(#ffffff,0.3);
+          height: 3px;
+          border-radius: 2px;
+          cursor: pointer;
+          transition:background-color 0.2s;
+          &:hover{
+            background:rgba(#ffffff,0.5);
+          }
+        }
+        .played {
+          position:absolute;
+          left:0;
+          top:0;
+          bottom:-1px;
+          background: #ffffff;
+          border-radius: 2px;
+        }
+      }
+    }
+  }
+  &.whiteSlide .music-96 .scrubber {
+    .bar {
+      border-bottom: 1px solid rgba(#202020,.2);
+    }
+    .played {
+      background: rgba(#202020,.5);
+    }
+  }
+}
+
+/* VINNIE RAPS'S MUSIC (#4) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-96-14a77587"] */
+.slide[data-cid="slide-96-14a77587"]{
+  .music-96{
+    .player {
+      &.pause{
+        .play{display:block;}
+        .pause{display:none;}
+      }
+      .play{display:none;}
+      .pause{display:block;}
+      .playpause {
+        display:inline-flex;
+        justify-content:center;
+        align-items:center;
+        flex-shrink:0;
+        width:27px;
+        height:27px;
+        cursor: pointer;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.101421), 0px 1px 2px rgba(0, 0, 0, 0.101421);
+        img{
+          width:13px;
+          height:13px;
+        }
+      }
+      .trackinfo{
+        display:flex;
+        justify-content:space-between;
+        align-items:baseline;
+      }
+      .scrubber {
+        margin-top:17px;
+        .bar {
+          position:relative;
+          border-bottom:1px solid rgba(#ffffff,0.3);
+          height: 3px;
+          border-radius: 2px;
+          cursor: pointer;
+          transition:background-color 0.2s;
+          &:hover{
+            background:rgba(#ffffff,0.5);
+          }
+        }
+        .played {
+          position:absolute;
+          left:0;
+          top:0;
+          bottom:-1px;
+          background: #ffffff;
+          border-radius: 2px;
+        }
+      }
+    }
+  }
+  &.whiteSlide .music-96 .scrubber {
+    .bar {
+      border-bottom: 1px solid rgba(#202020,.2);
+    }
+    .played {
+      background: rgba(#202020,.5);
+    }
+  }
+}
+
+/* KOK STUDIO (#7) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-139-8edbb6f5"] */
+.slide[data-cid="slide-139-8edbb6f5"]{
+  .btn-139{
+    top: 50%;
+    transform: translateY(-45px);
+    transition:all .15s;
+    &:hover{
+      opacity:0.6;
+    }
+    @include media($desktop, max) {
+      top:100%;
+      transform: translateY(-100%);
+    }
+    @include media($tablet, max) {
+      svg{
+        width:26px;
+        height:26px;
+      }
+    }
+    @include media($phone, max) {
+      svg{
+        width:22px;
+        height:22px;
+      }
+    }
+  }
+}
+h2 {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Adjust space between text and icons */
+}
+.icon-large {
+  width: 64px;
+  height: 64px;
+  vertical-align: middle;
+  transition: transform 0.3s ease, fill 0.3s ease; /* Smooth animation */
+}
+.instagram-icon:hover .icon-large {
+  transform: scale(1.2); /* Enlarge icon on hover */
+  fill: #E1306C; /* Instagram's pinkish color */
+}
+.social-103 {
+  display: inline-block;
+}
+
+/* ABOUT AMI (#8) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-103-889e43bd"] */
+.slide[data-cid="slide-103-889e43bd"]{
+  .social-103:hover{
+    opacity: 1 !important;
+  }
+}
+.social-icons {
+  display: flex;
+  justify-content: center;  /* Center the icons horizontally */
+  gap: 15px;  /* Add space between each icon */
+  margin-top: 20px;  /* Add some top margin if needed */
+}
+.social-link {
+  display: inline-block;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+.social-link:hover {
+  opacity: 1;  /* Increase opacity on hover */
+}
+
+/* ABOUT AMI (#9) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-103-41253768"] */
+.slide[data-cid="slide-103-41253768"]{
+  .social-103:hover{
+    opacity: 1 !important;
+  }
+}
+.social-icons {
+  display: flex;
+  justify-content: center;  /* Center the icons horizontally */
+  gap: 15px;  /* Add space between each icon */
+  margin-top: 20px;  /* Add some top margin if needed */
+}
+.social-link {
+  display: inline-block;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+.social-link:hover {
+  opacity: 1;  /* Increase opacity on hover */
+}
+
+/* ARTISTS (#10) */
+
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-105-df3a17b7"] */
+.slide[data-cid="slide-105-df3a17b7"]{
+  .box-105{
+    max-width: 480px;
+    min-height:580px;
+    @include media(570px, max) {
+      max-width: 320px;
+      min-height: 440px;
+    }
+  }
+  .thumbnail-105 {
+    &:hover{
+      .poster-105{
+        opacity: 0.3 !important;
+      }
+    }
+    a:hover{
+      opacity: 0.3 !important;
+    }
+  }
+  .poster-105{
+    transition:.15s;
+  }
+  .number-105{
+    top: 40px;
+    left:40px;
+  }
+  .inner-105 {
+    right: 40px;
+    bottom: 40px;
+    left: 40px;
+  }
+}
+svg.noFill {
+  display: inline-block;
+  width: 19px;
+  height: 18px;
+  fill: #ffffff !important;
+  stroke: none;
+}
+
+/* EVENTS (#11) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-97-d07b930b"] */
+.slide[data-cid="slide-97-d07b930b"]{
+  .calendar-97 {
+    width: 52px;
+    height: 52px;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    left: 0;
+    cursor: default;  
+    pointer-events: none;
+    &:hover {
+      transform: translateY(0) !important;
+    }
+    .month {
+      font-size: 10px;
+      line-height: 12px;
+      letter-spacing: 1px;
+      opacity: 0.8;
+    }
+    .number {
+      font-size: 22px;
+      line-height: 26px;
+      font-weight: 400;
+    }
+  }
+  .frame-97 {
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    position: relative;
+    padding: 30px 0;
+    @include media(768px, min) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    &:last-child {
+      border-bottom: none !important;
+    }
+  }
+  &.whiteSlide .frame-97 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    a.button.text-white {
+      color: $default-text-color !important;
+    }
+  }
+  .button-buy-97 {
+    float: right;
+  }
+  .title-group-97 {
+    min-width: 49%;
+    display: inline-block;
+    vertical-align: text-top;
+  }
+  @include media(992px, max) {
+    .title-group-97 {
+      min-width: 37%;
+      margin-left: 80px !important;
+    }
+  }
+  @include media(768px, max) {
+    .title-group-97 {
+      margin-left: 0 !important;
+      margin-top: 60px;
+      display: block;
+    }
+    .button-buy-97 {
+      float: none;
+      margin-top: 20px;
+      display: inline-block;
+    }
+  }
+}

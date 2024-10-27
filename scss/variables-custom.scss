@@ -1,0 +1,4 @@
+$white: #ffffff;
+@include generateColors('white',$white);
+$shop-white: #fbfbfb;
+@include generateColors('shop-white',$shop-white);
