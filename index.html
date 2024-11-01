@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <base href="./">
-    <title>Main page</title>
-    <meta property="og:title" content="Main page" />
-    <meta name="twitter:title" content="Main page" />
-    <meta name="description" content="This is the main (index) page of your project." />
-    <meta name="og:description" content="This is the main (index) page of your project." />
-    <meta name="twitter:description" content="This is the main (index) page of your project." />
-    <meta name="og:image" content="assets/uploads/ami-logo742084.png?p=q3j4yRhV" />
-    <meta name="twitter:image" content="assets/uploads/ami-logo742084.png?p=q3j4yRhV" />
+    <title>ALL MONEY IN AFRICA</title>
+    <meta property="og:title" content="ALL MONEY IN AFRICA" />
+    <meta name="twitter:title" content="ALL MONEY IN AFRICA" />
+    <meta name="description" content="Welcome to ALL MONEY IN AFRICA" />
+    <meta name="og:description" content="Welcome to ALL MONEY IN AFRICA." />
+    <meta name="twitter:description" content="Welcome to ALL MONEY IN AFRICA." />
+    <meta name="og:image" content="assets/uploads/ami-black.jpg" />
+    <meta property="og:url" content="https://amiafrica.netlify.app/">
+    <meta name="twitter:image" content="assets/uploads/ami-black.jpg" />
     <link rel="icon" sizes="any" href="assets/svg/favicon-default.svg" type="image/svg+xml">
 
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
@@ -54,6 +55,15 @@
 .logo-paragraph:hover {
   color: #706868;
   transition: color 0.3s ease-in-out;
+}.download-link {
+    margin-left: 10px;
+    color: #ffffff; /* Change to desired color */
+    text-decoration: none;
+    font-size: 14px; /* Adjust as needed */
+}
+
+.download-link:hover {
+    text-decoration: underline;
 }
 
         
@@ -179,15 +189,23 @@
         <li><a href="artist.html">ARTISTS</a></li>
         <li><a href="videos.html">VIDEOS</a></li>
         <li><a href="events-shows.html">EVENTS</a></li>
-         <li><a href="index.html">RELEASES</a></li>
+         <li><a href="#releases">RELEASES</a></li>
          <li><a href="shop.html">SHOP</a></li>
       </ul>
     </div>
     <div class="right">
       <ul class="menu trim">
-        <li><a href="http://facebook.com/designmodo" target="_blank"><svg><use href="#facebook"></use></svg></a></li>
-        <li><a href="http://twitter.com/designmodo" target="_blank"><svg><use href="#twitter"></use></svg></a></li>
-        <li class="cropRight"><a href="http://instagram.com/designmodo" class="trimRight" target="_blank"><svg><use href="#instagram"></use></svg></a></li>
+        <li><a href="https://www.facebook.com/VinnieRaps?mibextid=JRoKGi" target="_blank"><svg><use href="#facebook"></use></svg></a></li>
+        <li><a href="https://x.com/AMI_Afrika?t=_RUpW28ruEcqQceYsm23YA&s=09" target="_blank"><svg><use href="#twitter"></use></svg></a></li>
+        <li class="cropRight">
+          <a href="mailto:allmoneyinafrika@gmail.com" class="trimRight" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+              <path d="M20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6C22 4.9 21.1 4 20 4ZM20 8.8L12 13 4 8.8V6L12 10.2L20 6V8.8Z" />
+            </svg>
+          </a>
+        </li> 
+        <li class="cropRight"><a href="https://www.instagram.com/allmoneyinafrica?igsh=NGpycXVwbXdydnc=" class="trimRight" target="_blank"><svg><use href="#instagram"></use></svg></a></li>
+              
       </ul>
     </div>
   </div>
@@ -207,13 +225,20 @@
         <li><a href="artist.html">ARTISTS</a></li>
         <li><a href="videos.html">VIDEOS</a></li>
         <li><a href="events-shows.html">EVENTS</a></li>
-         <li><a href="index.html">RELEASES</a></li>
+         <li><a href="releases.html">RELEASES</a></li>
          <li><a href="shop.html">SHOP</a></li>
     </ul>
     <ul class="social opacity-8">
-      <li><a href="#"><svg><use href="#facebook"></use></svg></a></li>
-      <li><a href="#"><svg><use href="#twitter"></use></svg></a></li>
-      <li><a href="#"><svg><use href="#instagram"></use></svg></a></li>
+      <li><a href="https://www.facebook.com/VinnieRaps?mibextid=JRoKGi"><svg><use href="#facebook"></use></svg></a></li>
+      <li><a href="https://x.com/AMI_Afrika?t=_RUpW28ruEcqQceYsm23YA&s=09"><svg><use href="#twitter"></use></svg></a></li>
+      <li><a href="https://www.instagram.com/allmoneyinafrica?igsh=NGpycXVwbXdydnc="><svg><use href="#instagram"></use></svg></a></li>
+      <li class="cropRight">
+        <a href="mailto:allmoneyinafrika@gmail.com" class="trimRight" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+            <path d="M20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6C22 4.9 21.1 4 20 4ZM20 8.8L12 13 4 8.8V6L12 10.2L20 6V8.8Z" />
+          </svg>
+        </a>
+      </li> 
     </ul>
   </div>
 </nav>
@@ -259,7 +284,7 @@
   </div>
  <div class="background opacity-5">
     <video autoplay loop muted webkit-playsinline playsinline class="video-background">
-        <source src="assets/uploads/vinnie-raps-jaersa-testament-official-music-video-online-video-cutter-com.mp4?p=q3j4yRhV" type="video/mp4"/>
+        <source src="assets/img/background/vinnie-raps-jaersa-testament-official-music-video-online-video-cutter-com.mp4" type="video/mp4"/>
         <source src="assets/img/example/polina.webm" type="video/webm"/>
     </video>
 </div>
@@ -285,7 +310,7 @@
               <div class="music-96 fromRight">
                 <div class="margin-bottom-2 player pause ae-3">
                   <audio>
-                    <source src="assets/uploads/i-heard-snippet.mp3?p=q3j4yRhV" type="audio/mpeg">
+                    <source src="assets/img/music/i-heard-snippet.mp3" type="audio/mpeg">
                     Your browser does not support the audio element.
                   </audio>
                   <div class="trackinfo">
@@ -304,10 +329,31 @@
                     </div>
                   </div>
                 </div>
-                
                 <div class="margin-bottom-2 player pause ae-4">
                   <audio>
-                    <source src="assets/uploads/b-a-m-snippet.mp3?p=q3j4yRhV" type="audio/mpeg">
+                    <source src="assets/img/music/scarface.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                  </audio>
+                  <div class="trackinfo">
+                    <div class="trackinfo margin-right-1">
+                      <div class="white round playpause">
+                        <img src="assets/svg/play-dark.svg" class="play">
+                        <img src="assets/svg/pause-dark.svg" class="pause">
+                      </div>
+                      <p class="crop margin-left-1">SCARFACE(Mahhala Stayela) – VINNIE RAPS & TRXLL DA KID</p>
+                    </div>
+                    <p class="crop toRight opacity-8 elapsed"><span>02:01</span></p>
+                  </div>
+                  <div class="scrubber">
+                    <div class="bar">
+                      <div class="played"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="margin-bottom-2 player pause ae-4">
+                  <audio>
+                    <source src="assets/img/music/BAM_SNIPPET.mp3" type="audio/mpeg">
                     Your browser does not support the audio element.
                   </audio>
                   <div class="trackinfo">
@@ -331,7 +377,7 @@
                 
                    <div class="margin-bottom-2 player pause ae-7">
                   <audio>
-                    <source src="assets/uploads/v-i-b-z-snippet.mp3?p=q3j4yRhV" type="audio/mpeg">
+                    <source src="assets/img/music/v-i-b-z-snippet.mp3" type="audio/mpeg">
                     Your browser does not support the audio element.
                   </audio>
                   <div class="trackinfo">
@@ -354,7 +400,7 @@
                                 
                    <div class="margin-bottom-2 player pause ae-7">
                   <audio>
-                    <source src="assets/uploads/afrikan-rasta-snippet.mp3?p=q3j4yRhV" type="audio/mpeg">
+                    <source src="assets/img/music/afrikan-rasta-snippet.mp3" type="audio/mpeg">
                     Your browser does not support the audio element.
                   </audio>
                   <div class="trackinfo">
@@ -378,7 +424,7 @@
                                                 
                    <div class="margin-bottom-2 player pause ae-7">
                   <audio>
-                    <source src="assets/uploads/afrikan-style-snippet.mp3?p=q3j4yRhV" type="audio/mpeg">
+                    <source src="assets/img/music/afrikan-style-snippet.mp3" type="audio/mpeg">
                     Your browser does not support the audio element.
                   </audio>
                   <div class="trackinfo">
@@ -408,6 +454,134 @@
   </div>
   <div class="background opacity-5" style="background-image:url(assets/uploads/mic2.jpg?p=q3j4yRhV)"></div>
 </section>
+
+
+<section id="releases" data-cid="slide-96-b887efed" class="slide fade-6 kenBurns" data-title="KOKAINE'S MUSIC" data-name="slide-96-b887efed">
+  <div class="content">
+    <div class="container">
+      <div class="wrap padding-top-phablet-5">
+
+        <div class="fix-8-12 toCenter margin-bottom-5">
+          <h1 class="ae-1 smaller">Singles and Popular Releases</h1>
+        </div>
+        <div class="fix-12-12">
+          <ul class="flex later equal left">
+            <li class="image-96 col-4-12 padding-bottom-phablet-3">
+              <img class="rounded ae-3" src="assets/uploads/heard.jpg" alt="Image Thumbnail" data-action="zoom"/>
+            </li>
+            <li class="col-8-12 padding-left-5 padding-phablet-0">
+              <h3 class="smallest margin-bottom-2 equalElement ae-2">AMI</h3>
+              <div class="ae-3 margin-bottom-3"><p class="opacity-8">KOKAINE,VINNIE RAPS</p></div>
+              <div class="music-96 fromRight">
+                <div class="music-96 fromRight"> 
+                  <div class="margin-bottom-2 player pause ae-3">
+                      <audio>
+                          <source src="assets/img/music/I_heard.mp3" type="audio/mpeg">
+                          Your browser does not support the audio element.
+                      </audio>
+                      <div class="trackinfo">
+                          <div class="trackinfo margin-right-1">
+                              <div class="white round playpause">
+                                  <img src="assets/svg/play-dark.svg" class="play">
+                                  <img src="assets/svg/pause-dark.svg" class="pause">
+                              </div>
+                              <p class="crop margin-left-1">I HEARD(MAHHALA STAYELA) – KOKAINE</p>
+                              
+                          </div>
+                          <p class="crop toRight opacity-8 elapsed"><span>01:36</span><span><a href="assets/img/music/I_heard.mp3" class="download-link" download>DOWNLOAD</a></span><span></span><span><a href="https://linktr.ee/kokaine_oog?fbclid=PAZXh0bgNhZW0CMTEAAaYDl7w_QC8TkAmI2gN2GgUFuY1bvV6pjLHftCTJFqGFvQLDywTZKKGXjcQ_aem_vYfP3g59vouUN2tYTZz_aw" class="download-link" download>MORE DSP</a></span><span></span></span></p>
+                      </div>
+                      <div class="scrubber">
+                          <div class="bar">
+                              <div class="played"></div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              
+                            
+                
+                <div class="margin-bottom-2 player pause ae-4">
+                  <audio>
+                    <source src="assets/img/music/scarface.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                  </audio>
+                  <div class="trackinfo">
+                    <div class="trackinfo margin-right-1">
+                      <div class="white round playpause">
+                        <img src="assets/svg/play-dark.svg" class="play">
+                        <img src="assets/svg/pause-dark.svg" class="pause">
+                      </div>
+                      <p class="crop margin-left-1">SCARFACE(MAHHALA STAYELA) – VINNIE RAPS</p>
+                    </div>
+                    <p class="crop toRight opacity-8 elapsed"><span>02:01</span><span><a href="assets/img/music/scarface.mp3" class="download-link" download>DOWNLOAD</a></span><span></span><span><a href="https://fanlink.tv/VinnieRaps" class="download-link" download>MORE DSP</a></span><span></span></span></p>
+                  </div>
+                  <div class="scrubber">
+                    <div class="bar">
+                      <div class="played"></div>
+                    </div>
+                  </div>
+                </div>
+              
+                
+                <div class="margin-bottom-2 player pause ae-4">
+                  <audio>
+                    <source src="assets/img/music/EISH CHIEF.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                  </audio>
+                  <div class="trackinfo">
+                    <div class="trackinfo margin-right-1">
+                      <div class="white round playpause">
+                        <img src="assets/svg/play-dark.svg" class="play">
+                        <img src="assets/svg/pause-dark.svg" class="pause">
+                      </div>
+                      <p class="crop margin-left-1">EISH CHIEF(CPT EDITION) – VINNIE RAPS</p>
+                    </div>
+                    <p class="crop toRight opacity-8 elapsed"><span>01:45</span><span><a href="assets/img/music/EISH CHIEF.mp3" class="download-link" download>DOWNLOAD</a></span><span></span><span><a href="https://youtu.be/Rftg_guzBek?si=lGiLTCuhwFh64qQ_" class="download-link" download>MORE DSP</a></span><span></span></span></p>
+                  </div>
+                  <div class="scrubber">
+                    <div class="bar">
+                      <div class="played"></div>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="margin-bottom-2 player pause ae-4">
+                  <audio>
+                    <source src="assets/img/music/NYC FLOWS.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                  </audio>
+                  <div class="trackinfo">
+                    <div class="trackinfo margin-right-1">
+                      <div class="white round playpause">
+                        <img src="assets/svg/play-dark.svg" class="play">
+                        <img src="assets/svg/pause-dark.svg" class="pause">
+                      </div>
+                      <p class="crop margin-left-1">NYC FLOWS(RADIO EDIT) – VINNIE RAPS,JAERSA</p>
+                    </div>
+                    <p class="crop toRight opacity-8 elapsed"><span>02:58</span><span><a href="assets/img/music/NYC FLOWS.mp3" class="download-link" download>DOWNLOAD</a></span><span></span><span><a href="https://fanlink.tv/VinnieRaps" class="download-link" download>MORE DSP</a></span><span></span></span></p>
+                  </div>
+                  <div class="scrubber">
+                    <div class="bar">
+                      <div class="played"></div>
+                    </div>
+                  </div>
+                </div>
+                
+        
+                
+               <div>
+               
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="background opacity-5" style="background-image:url(assets/uploads/3-20240826-154000-0002-4.jpg?p=q3j4yRhV)"></div>
+</section>
+
 <!-- KOKAINE'S MUSIC (#3) -->
 <section data-cid="slide-96-b887efed" class="slide fade-6 kenBurns" data-title="KOKAINE'S MUSIC" data-name="slide-96-b887efed">
   <div class="content">
@@ -426,31 +600,36 @@
               <h3 class="smallest margin-bottom-2 equalElement ae-2">ALWAY$ $TRIVE AND PRO$PER  </h3>
               <div class="ae-3 margin-bottom-3"><p class="opacity-8">KOKAINE</p></div>
               <div class="music-96 fromRight">
-                <div class="margin-bottom-2 player pause ae-3">
-                  <audio>
-                    <source src="assets/uploads/alway-trive-and-pro-per-intro.mp3?p=q3j4yRhV" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                  </audio>
-                  <div class="trackinfo">
-                    <div class="trackinfo margin-right-1">
-                      <div class="white round playpause">
-                        <img src="assets/svg/play-dark.svg" class="play">
-                        <img src="assets/svg/pause-dark.svg" class="pause">
+                <div class="music-96 fromRight"> 
+                  <div class="margin-bottom-2 player pause ae-3">
+                      <audio>
+                          <source src="assets/img/music/ASAP-INTRO.mp3" type="audio/mpeg">
+                          Your browser does not support the audio element.
+                      </audio>
+                      <div class="trackinfo">
+                          <div class="trackinfo margin-right-1">
+                              <div class="white round playpause">
+                                  <img src="assets/svg/play-dark.svg" class="play">
+                                  <img src="assets/svg/pause-dark.svg" class="pause">
+                              </div>
+                              <p class="crop margin-left-1">ALWAY$ $TRIVE AND PRO$PER – KOKAINE</p>
+                          </div>
+                          <p class="crop toRight opacity-8 elapsed"><span>01:25</span> <span>  <a href="assets/img/music/ASAP-INTRO.mp3" class="download-link" download>DOWNLOAD</a></span><span>  <a href="https://linktr.ee/kokaine_oog?fbclid=PAZXh0bgNhZW0CMTEAAaYDl7w_QC8TkAmI2gN2GgUFuY1bvV6pjLHftCTJFqGFvQLDywTZKKGXjcQ_aem_vYfP3g59vouUN2tYTZz_aw" class="download-link" download>MORE DSP</a></span></span></p>
+                        
                       </div>
-                      <p class="crop margin-left-1">ALWAY$ $TRIVE AND PRO$PER – KOKAINE</p>
-                    </div>
-                    <p class="crop toRight opacity-8 elapsed"><span>01:25</span></p>
+                      <div class="scrubber">
+                          <div class="bar">
+                              <div class="played"></div>
+                          </div>
+                      </div>
                   </div>
-                  <div class="scrubber">
-                    <div class="bar">
-                      <div class="played"></div>
-                    </div>
-                  </div>
-                </div>
+              </div>
+              
+                            
                 
                 <div class="margin-bottom-2 player pause ae-4">
                   <audio>
-                    <source src="assets/uploads/sequence.mp3?p=q3j4yRhV" type="audio/mpeg">
+                    <source src="assets/img/music/sequence.mp3" type="audio/mpeg">
                     Your browser does not support the audio element.
                   </audio>
                   <div class="trackinfo">
@@ -461,7 +640,8 @@
                       </div>
                       <p class="crop margin-left-1">$EQUENCE –  KOKAINE FT KXNG XT,YUNG KID</p>
                     </div>
-                    <p class="crop toRight opacity-8 elapsed"><span>03:30</span></p>
+                    <p class="crop toRight opacity-8 elapsed"><span>03:30</span><a href="assets/img/music/sequence.mp3" class="download-link" download>DOWNLOAD</a> <span> </span> <span>  <a href="https://linktr.ee/kokaine_oog?fbclid=PAZXh0bgNhZW0CMTEAAaYDl7w_QC8TkAmI2gN2GgUFuY1bvV6pjLHftCTJFqGFvQLDywTZKKGXjcQ_aem_vYfP3g59vouUN2tYTZz_aw" class="download-link" download>MORE DSP</a></span></span> </p>
+                    
                   </div>
                   <div class="scrubber">
                     <div class="bar">
@@ -474,7 +654,7 @@
                 
                    <div class="margin-bottom-2 player pause ae-7">
                   <audio>
-                    <source src="assets/uploads/foreign-kokaine-mastered-version.mp3?p=q3j4yRhV" type="audio/mpeg">
+                    <source src="assets/img/music/FOREIGN.mp3" type="audio/mpeg">
                     Your browser does not support the audio element.
                   </audio>
                   <div class="trackinfo">
@@ -485,7 +665,8 @@
                       </div>
                       <p class="crop margin-left-1">FOREIGN – KOKAINE</p>
                     </div>
-                    <p class="crop toRight opacity-8 elapsed"><span>02:29</span></p>
+                    <p class="crop toRight opacity-8 elapsed"><span>02:29</span><span><a href="assets/img/music/FOREIGN.mp3" class="download-link" download>DOWNLOAD</a></span><span>  <a href="https://linktr.ee/kokaine_oog?fbclid=PAZXh0bgNhZW0CMTEAAaYDl7w_QC8TkAmI2gN2GgUFuY1bvV6pjLHftCTJFqGFvQLDywTZKKGXjcQ_aem_vYfP3g59vouUN2tYTZz_aw" class="download-link" download>MORE DSP</a></span></span></p>
+                    
                   </div>
                   <div class="scrubber">
                     <div class="bar">
@@ -499,7 +680,7 @@
                 
                 <div class="margin-bottom-2 player pause ae-5">
                   <audio>
-                    <source src="assets/uploads/pa-ion-kokaine.mp3?p=q3j4yRhV" type="audio/mpeg">
+                    <source src="assets/img/music/PASSION.mp3" type="audio/mpeg">
                     Your browser does not support the audio element.
                   </audio>
                   <div class="trackinfo">
@@ -510,7 +691,8 @@
                       </div>
                       <p class="crop margin-left-1">PASSION – KOKAINE</p>
                     </div>
-                    <p class="crop toRight opacity-8 elapsed"><span>02:25</span></p>
+                    <p class="crop toRight opacity-8 elapsed"><span>02:25</span><span><a href="assets/img/music/PASSION.mp3" class="download-link" download>DOWNLOAD</a></span><span>  <a href="https://linktr.ee/kokaine_oog?fbclid=PAZXh0bgNhZW0CMTEAAaYDl7w_QC8TkAmI2gN2GgUFuY1bvV6pjLHftCTJFqGFvQLDywTZKKGXjcQ_aem_vYfP3g59vouUN2tYTZz_aw" class="download-link" download>MORE DSP</a></span></span></p>
+                    
                   </div>
                   <div class="scrubber">
                     <div class="bar">
@@ -524,7 +706,7 @@
                 
                 <div class="margin-bottom-2 player pause ae-6">
                   <audio>
-                    <source src="assets/uploads/me-iah-kokaine-ft-vinnieraps-outro.mp3?p=q3j4yRhV" type="audio/mpeg">
+                    <source src="assets/img/music/MESSIAH.mp3" type="audio/mpeg">
                     Your browser does not support the audio element.
                   </audio>
                   <div class="trackinfo">
@@ -535,7 +717,7 @@
                       </div>
                       <p class="crop margin-left-1">ME$$IAH(Outro) – KOKAINE,VINNIE RAPS</p>
                     </div>
-                    <p class="crop toRight opacity-8 elapsed"><span>01:39</span></p>
+                    <p class="crop toRight opacity-8 elapsed"><span>01:39</span><span><a href="assets/img/music/MESSIAH.mp3" class="download-link" download>DOWNLOAD</a></span><span>  <a href="https://linktr.ee/kokaine_oog?fbclid=PAZXh0bgNhZW0CMTEAAaYDl7w_QC8TkAmI2gN2GgUFuY1bvV6pjLHftCTJFqGFvQLDywTZKKGXjcQ_aem_vYfP3g59vouUN2tYTZz_aw" class="download-link" download>MORE DSP</a></span></span></p>
                   </div>
                   <div class="scrubber">
                     <div class="bar">
@@ -574,9 +756,33 @@
               <h3 class="smallest margin-bottom-2 equalElement ae-2">Discography</h3>
               <div class="ae-3 margin-bottom-3"><p class="opacity-8">VINNIE RAPS</p></div>
               <div class="music-96 fromRight">
+
+                <div class="margin-bottom-2 player pause ae-4">
+                  <audio>
+                    <source src="assets/img/music/UYATSHISA.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                  </audio>
+                  <div class="trackinfo">
+                    <div class="trackinfo margin-right-1">
+                      <div class="white round playpause">
+                        <img src="assets/svg/play-dark.svg" class="play">
+                        <img src="assets/svg/pause-dark.svg" class="pause">
+                      </div>
+                      <p class="crop margin-left-1">UYATSHISA – VINNIE RAPS,JAE_RSA & LEE M</p>
+                    </div>
+                    <p class="crop toRight opacity-8 elapsed"><span>02:36</span><span><a href="assets/img/music/UYATSHISA.mp3" class="download-link" download>DOWNLOAD</a></span><span></span><span><a href="https://fanlink.tv/VinnieRaps" class="download-link" download>MORE DSP</a></span><span></span></span></p>
+                  </div>
+                  <div class="scrubber">
+                    <div class="bar">
+                      <div class="played"></div>
+                    </div>
+                  </div>
+                </div>
+                
+
                 <div class="margin-bottom-2 player pause ae-3">
                   <audio>
-                    <source src="assets/uploads/moonlight-feat-fleeqy-jae.mp3?p=q3j4yRhV" type="audio/mpeg">
+                    <source src="assets/img/music/MOONLIGHT.mp3" type="audio/mpeg">
                     Your browser does not support the audio element.
                   </audio>
                   <div class="trackinfo">
@@ -587,7 +793,7 @@
                       </div>
                       <p class="crop margin-left-1">MOONLIGHT – VINNIE RAPS FT FLEEQY(JAE)</p>
                     </div>
-                    <p class="crop toRight opacity-8 elapsed"><span>04:12</span></p>
+                    <p class="crop toRight opacity-8 elapsed"><span>04:12</span><span><a href="assets/img/music/MOONLIGHT.mp3" class="download-link" download>DOWNLOAD</a></span><span></span><span><a href="https://fanlink.tv/VinnieRaps" class="download-link" download>MORE DSP</a></span><span></span></span></p>
                   </div>
                   <div class="scrubber">
                     <div class="bar">
@@ -598,31 +804,10 @@
                 
                 
                 
+                                
                 <div class="margin-bottom-2 player pause ae-4">
                   <audio>
-                    <source src="assets/uploads/scarface.mp3?p=q3j4yRhV" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                  </audio>
-                  <div class="trackinfo">
-                    <div class="trackinfo margin-right-1">
-                      <div class="white round playpause">
-                        <img src="assets/svg/play-dark.svg" class="play">
-                        <img src="assets/svg/pause-dark.svg" class="pause">
-                      </div>
-                      <p class="crop margin-left-1">SCARFACE(Mahhala Stayela) – VINNIE RAPS & TRXLL DA KID</p>
-                    </div>
-                    <p class="crop toRight opacity-8 elapsed"><span>02:01</span></p>
-                  </div>
-                  <div class="scrubber">
-                    <div class="bar">
-                      <div class="played"></div>
-                    </div>
-                  </div>
-                </div>
-                
-                <div class="margin-bottom-2 player pause ae-4">
-                  <audio>
-                    <source src="assets/uploads/african-gurl.mp3?p=q3j4yRhV" type="audio/mpeg">
+                    <source src="assets/img/music/AFRICAN STYLE.mp3" type="audio/mpeg">
                     Your browser does not support the audio element.
                   </audio>
                   <div class="trackinfo">
@@ -633,7 +818,7 @@
                       </div>
                       <p class="crop margin-left-1">AFRIKAN STYLE – VINNIE RAPS</p>
                     </div>
-                    <p class="crop toRight opacity-8 elapsed"><span>02:36</span></p>
+                    <p class="crop toRight opacity-8 elapsed"><span>02:36</span><span><a href="assets/img/music/AFRICAN STYLE.mp3" class="download-link" download>DOWNLOAD</a></span><span></span><span><a href="https://fanlink.tv/VinnieRaps" class="download-link" download>MORE DSP</a></span><span></span></span></p>
                   </div>
                   <div class="scrubber">
                     <div class="bar">
@@ -646,7 +831,7 @@
                 
                    <div class="margin-bottom-2 player pause ae-7">
                   <audio>
-                    <source src="assets/uploads/mama.mp3?p=q3j4yRhV" type="audio/mpeg">
+                    <source src="assets/img/music/mama.mp3" type="audio/mpeg">
                     Your browser does not support the audio element.
                   </audio>
                   <div class="trackinfo">
@@ -657,7 +842,7 @@
                       </div>
                       <p class="crop margin-left-1">MAMA – VINNIE RAPS</p>
                     </div>
-                    <p class="crop toRight opacity-8 elapsed"><span>03:57</span></p>
+                    <p class="crop toRight opacity-8 elapsed"><span>03:57</span><span><a href="assets/img/music/mama.mp3" class="download-link" download>DOWNLOAD</a></span><span></span><span><a href="https://fanlink.tv/VinnieRaps" class="download-link" download>MORE DSP</a></span><span></span></span></p>
                   </div>
                   <div class="scrubber">
                     <div class="bar">
@@ -671,7 +856,7 @@
                 
                 <div class="margin-bottom-2 player pause ae-5">
                   <audio>
-                    <source src="assets/uploads/testament-1.mp3?p=q3j4yRhV" type="audio/mpeg">
+                    <source src="assets/img/music/TESTAMENT.mp3" type="audio/mpeg">
                     Your browser does not support the audio element.
                   </audio>
                   <div class="trackinfo">
@@ -682,7 +867,8 @@
                       </div>
                       <p class="crop margin-left-1">TESTAMENT – VINNIE RAPS</p>
                     </div>
-                    <p class="crop toRight opacity-8 elapsed"><span>02:25</span></p>
+                    <p class="crop toRight opacity-8 elapsed"><span>02:33</span><span><a href="assets/img/music/TESTAMENT.mp3" class="download-link" download>DOWNLOAD</a></span><span></span><span><a href="https://fanlink.tv/VinnieRaps" class="download-link" download>MORE DSP</a></span><span></span></span></p>
+                    
                   </div>
                   <div class="scrubber">
                     <div class="bar">
@@ -696,7 +882,7 @@
                 
                 <div class="margin-bottom-2 player pause ae-6">
                   <audio>
-                    <source src="assets/uploads/four-twenty-final-demo-1.mp3?p=q3j4yRhV" type="audio/mpeg">
+                    <source src="assets/img/music/420 (DEMO).mp3" type="audio/mpeg">
                     Your browser does not support the audio element.
                   </audio>
                   <div class="trackinfo">
@@ -707,7 +893,7 @@
                       </div>
                       <p class="crop margin-left-1">Vinnie Raps & JaeRsa-ONE LOVE (420 Demo)</p>
                     </div>
-                    <p class="crop toRight opacity-8 elapsed"><span>03:43</span></p>
+                    <p class="crop toRight opacity-8 elapsed"><span>03:43</span><span><a href="assets/img/music/420 (DEMO).mp3" class="download-link" download>DOWNLOAD</a></span><span></span><span><a href="https://fanlink.tv/VinnieRaps" class="download-link" download>MORE DSP</a></span><span></span></span></p>
                   </div>
                   <div class="scrubber">
                     <div class="bar">
@@ -739,27 +925,22 @@
             <li class="col-6-12 left">
               <h1 class="margin-bottom-2 ae-2 fromLeft">KOKAINE Music Videos</h1>
               <p class="large margin-bottom-3 ae-3 fromLeft"><span class="opacity-8">Raw energy, real stories, and vibes you can’t fake. 🎤🎥 Every visual is a piece of me—unfiltered and unapologetic. Dive into the world of Kokaine.</span></p>
-              <ul class="tabs controller uppercase bold ae-4 fromCenter" data-slider-id="60-5">
+              <ul class="tabs controller uppercase bold ae-4 fromCenter" data-slider-id="60-1">
                 <li class="selected">KOK MADE IT RIGHT!!!(VISUALS)</li>
                 <li>DAY IN A LIFE:SEASON 1 EPISODE 1</li>
                
               </ul>
             </li>
             <li class="col-6-12 left ae-5 fromCenter">
-              <ul class="slider animated margin-top-tablet-4" data-slider-id="60-5">
+              <ul class="slider animated margin-top-tablet-4" data-slider-id="60-1">
                 <li class="selected fromCenter">
                   <div class="popupTrigger videoThumbnail shadow rounded" data-popup-id="60-1">
-                    <img class="wide" src="assets/uploads/img-20240624-163629-4.jpg?p=q3j4yRhV" alt="Video Thumbnail"/>
+                    <img class="wide" src="assets/uploads/Kokmadeitright.jpg" alt="Video Thumbnail"/>
                   </div>
                 </li>
                 <li class="fromCenter">
                   <div class="popupTrigger videoThumbnail shadow rounded" data-popup-id="60-2">
-                    <img class="wide" src="assets/uploads/img-20240624-163629-4.jpg?p=q3j4yRhV" alt="Video Thumbnail"/>
-                  </div>
-                </li>
-                <li class="fromCenter">
-                  <div class="popupTrigger videoThumbnail shadow rounded" data-popup-id="60-3">
-                    <img class="wide" src="assets/uploads/img-20240624-163629-4.jpg?p=q3j4yRhV" alt="Video Thumbnail"/>
+                    <img class="wide" src="assets/uploads/KOK VLOG.jpg" alt="Video Thumbnail"/>
                   </div>
                 </li>
               </ul>
@@ -774,7 +955,7 @@
 </section>
 
 
-<!-- Popup Video -->
+<!-- Popup Video 1(KOK MADE IT RIGHT) -->
 <div class="popup autoplay" data-popup-id="60-1">
   <div class="close"><svg><use href="#close"></use></svg></div>
   <div class="content">
@@ -782,7 +963,7 @@
       <div class="wrap">
         <div class="fix-10-12">
           <div class="embedVideo popupContent shadow rounded">
-            <iframe data-src="https://youtube.com/embed/Dw9B_GAYvCM?si=FOaNokrZVkuV1Hhf" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Dw9B_GAYvCM?si=FdxZq3Kb3OfvxrmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -791,7 +972,7 @@
 </div>
 
 
-<!-- Popup Video -->
+<!-- Popup Video 2 (VLOG) -->
 <div class="popup autoplay" data-popup-id="60-2">
   <div class="close"><svg><use href="#close"></use></svg></div>
   <div class="content">
@@ -799,7 +980,7 @@
       <div class="wrap">
         <div class="fix-10-12">
           <div class="embedVideo popupContent shadow rounded">
-            <iframe data-src="https://www.youtube.com/embed/oj4655aSGcs?si=wij1W_4bO4YeGdp9" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/oj4655aSGcs?si=JFiXyiOYzXYNinHR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -808,21 +989,6 @@
 </div>
 
 
-<!-- Popup Video -->
-<div class="popup autoplay" data-popup-id="60-3">
-  <div class="close"><svg><use href="#close"></use></svg></div>
-  <div class="content">
-    <div class="container">
-      <div class="wrap">
-        <div class="fix-10-12">
-          <div class="embedVideo popupContent shadow rounded">
-            <iframe data-src="https://www.youtube.com/embed/Rftg_guzBek?si=CM8xnC0ew-61QP2s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 <!-- VINNIE RAPS MUSIC VIDEOS (#6) -->
 <section data-cid="slide-60-fe99a1aa" class="slide fade-6 kenBurns" data-title="VINNIE RAPS MUSIC VIDEOS" data-name="slide-60-fe99a1aa">
   <div class="content">
@@ -834,7 +1000,7 @@
             <li class="col-6-12 left">
               <h1 class="margin-bottom-2 ae-2 fromLeft">Vinnie Raps Music Videos</h1>
               <p class="large margin-bottom-3 ae-3 fromLeft"><span class="opacity-8">Bringing my vision to life, one beat at a time. 🎥🔥 Every frame tells a story, every lyric hits deep. Tap in and vibe with the journey. </span></p>
-              <ul class="tabs controller uppercase bold ae-4 fromCenter" data-slider-id="60-5">
+              <ul class="tabs controller uppercase bold ae-4 fromCenter" data-slider-id="60-3">
                 <li class="selected">Testament Music Video</li>
                 <li>AFRIKAN STYLE(VISUALIZER)</li>
                 <li>EISH CHIEF(CPT EDITON) MUSIC VIDEO</li>
@@ -842,19 +1008,19 @@
               </ul>
             </li>
             <li class="col-6-12 left ae-5 fromCenter">
-              <ul class="slider animated margin-top-tablet-4" data-slider-id="60-5">
+              <ul class="slider animated margin-top-tablet-4" data-slider-id="60-3">
                 <li class="selected fromCenter">
-                  <div class="popupTrigger videoThumbnail shadow rounded" data-popup-id="60-1">
+                  <div class="popupTrigger videoThumbnail shadow rounded" data-popup-id="60-3">
                     <img class="wide" src="assets/uploads/vinnie5.jpg?p=q3j4yRhV" alt="Video Thumbnail"/>
                   </div>
                 </li>
                 <li class="fromCenter">
-                  <div class="popupTrigger videoThumbnail shadow rounded" data-popup-id="60-2">
+                  <div class="popupTrigger videoThumbnail shadow rounded" data-popup-id="60-4">
                     <img class="wide" src="assets/uploads/saveclip-app-461859492-896771272365900-8074394112716352556-n.jpg?p=q3j4yRhV" alt="Video Thumbnail"/>
                   </div>
                 </li>
                 <li class="fromCenter">
-                  <div class="popupTrigger videoThumbnail shadow rounded" data-popup-id="60-3">
+                  <div class="popupTrigger videoThumbnail shadow rounded" data-popup-id="60-5">
                     <img class="wide" src="assets/uploads/saveclip-app-448880435-471854982199560-3848841228463876363-n.jpg?p=q3j4yRhV" alt="Video Thumbnail"/>
                   </div>
                 </li>
@@ -871,7 +1037,7 @@
 
 
 <!-- Popup Video -->
-<div class="popup autoplay" data-popup-id="60-1">
+<div class="popup autoplay" data-popup-id="60-3">
   <div class="close"><svg><use href="#close"></use></svg></div>
   <div class="content">
     <div class="container">
@@ -888,7 +1054,7 @@
 
 
 <!-- Popup Video -->
-<div class="popup autoplay" data-popup-id="60-2">
+<div class="popup autoplay" data-popup-id="60-4">
   <div class="close"><svg><use href="#close"></use></svg></div>
   <div class="content">
     <div class="container">
@@ -905,7 +1071,7 @@
 
 
 <!-- Popup Video -->
-<div class="popup autoplay" data-popup-id="60-3">
+<div class="popup autoplay" data-popup-id="60-5">
   <div class="close"><svg><use href="#close"></use></svg></div>
   <div class="content">
     <div class="container">
@@ -1018,8 +1184,8 @@
                   <a href="" class="button rounded green crop margin-top-1 margin-right-3 margin-right-phone-2 middle" >Browse Works</a>
                   <div class="margin-top-1 inlineBlock middle">
 <div class="social-icons">
-  <a class="social-link" href="https://tr.ee/iXXb2Q8TJF">
-    <svg width="18" height="18"><use href="https://x.com/hunny_kokaine?t=LYZJOL01jSB_87B8TNKBjg&s=09"></use></svg>
+  <a class="social-link" href="https://x.com/hunny_kokaine?t=LYZJOL01jSB_87B8TNKBjg&s=09">
+    <svg width="18" height="18"><use href="#twitter"></use></svg>
   </a>
   <a class="social-link" href="https://www.youtube.com/@KOKAINE_OOG">
     <svg width="19" height="18" fill="#ffffff"><use href="#youtube"></use></svg>
@@ -1058,7 +1224,7 @@
                   <a href="#" class="button rounded blue crop margin-top-1 margin-right-3 margin-right-phone-2 middle">Browse Works</a>
                   <div class="inlineBlock middle margin-top-1">
       <div class="social-icons">
-  <a class="social-link" href="https://tr.ee/iXXb2Q8TJF">
+  <a class="social-link" href="https://x.com/Vinnie_raps?t=C5M4FtYPCvn2YAXXG5Mo-A&s=09">
     <svg width="18" height="18"><use href="#twitter"></use></svg>
   </a>
   <a class="social-link" href="https://www.youtube.com/@KOKAINE_OOG">
@@ -1089,7 +1255,7 @@
               </div>
             </li>
             <li class="col-6-12 margin-bottom-0 margin-bottom-tablet-2"> 
-              <img src="assets/uploads/vinnie6.jpg?p=q3j4yRhV" class="rounded wide ae-4" alt="Artist"/>
+              <img src="assets/uploads/vinnie_banner.jpg" class="rounded wide ae-4" alt="Artist"/>
             </li>            
           </ul>
 
@@ -1118,9 +1284,6 @@
                   <a href="" class="button rounded green crop margin-top-1 margin-right-3 margin-right-phone-2 middle" >Browse Works</a>
                   <div class="margin-top-1 inlineBlock middle">
 <div class="social-icons">
-  <a class="social-link" href="https://tr.ee/iXXb2Q8TJF">
-    <svg width="18" height="18"><use href="#twitter"></use></svg>
-  </a>
   <a class="social-link" href="https://www.youtube.com/@KOKAINE_OOG">
     <svg width="19" height="18" fill="#ffffff"><use href="#youtube"></use></svg>
   </a>
@@ -1161,22 +1324,16 @@
                   <a href="#" class="button rounded blue crop margin-top-1 margin-right-3 margin-right-phone-2 middle">Browse Works</a>
                   <div class="inlineBlock middle margin-top-1">
       <div class="social-icons">
-  <a class="social-link" href="https://tr.ee/iXXb2Q8TJF">
-    <svg width="18" height="18"><use href="#twitter"></use></svg>
-  </a>
-  <a class="social-link" href="https://www.youtube.com/@KOKAINE_OOG">
+  <a class="social-link" href="https://www.youtube.com/@ziaaas.supremacy">
     <svg width="19" height="18" fill="#ffffff"><use href="#youtube"></use></svg>
   </a>
-  <a class="social-link" href="https://www.instagram.com/kokaine_rsa?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+  <a class="social-link" href="https://www.instagram.com/ziaaassupremacy/profilecard/?igsh=MXM1aWdxOTM5aW95NQ==">
     <svg width="18" height="18" fill="#ffffff"><use href="#instagram2"></use></svg>
   </a>
-  <a class="social-link" href="https://www.tiktok.com/@yourprofile" target="_blank" rel="noopener noreferrer">
+  <a class="social-link" href="https://www.tiktok.com/@ziaaassupremacy?_t=8r0DRyEnY1d&_r=1" target="_blank" rel="noopener noreferrer">
     <svg width="18" height="18" fill="#ffffff" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
       <path d="M33.62 8.29c1.88 1.74 4.26 3.01 7.04 3.35v5.72a17.33 17.33 0 0 1-7.62-1.9v13.36c0 8.38-6.77 15.2-15.13 15.2A15.18 15.18 0 0 1 2 28.83c0-8.36 6.76-15.19 15.12-15.19 1.09 0 2.15.11 3.17.32v5.7a9.5 9.5 0 0 0-3.17-.56c-5.28 0-9.56 4.3-9.56 9.61s4.28 9.62 9.56 9.62c5.29 0 9.57-4.3 9.57-9.62V5.72h5.86v2.57c0 .66.27 1.28.76 1.74Z"/>
     </svg>
-  </a>
-  <a class="social-link" href="https://www.facebook.com/yourprofile">
-    <svg width="18" height="18" fill="#ffffff"><use href="#facebook"></use></svg>
   </a>
 </div>
             </div>
@@ -1184,7 +1341,7 @@
               </div>
             </li>
             <li class="col-6-12 margin-bottom-0 margin-bottom-tablet-2"> 
-              <img src="assets/uploads/vinnie6.jpg?p=q3j4yRhV" class="rounded wide ae-4" alt="Artist"/>
+              <img src="assets/uploads/gabs-banner.jpg" class="rounded wide ae-4" alt="Artist"/>
             </li>            
           </ul>
 
@@ -1195,153 +1352,7 @@
   <div class="background" style="background-image:url(assets/img/background/img-103.jpg)"></div> 
 </section>
 <!-- ARTISTS (#10) -->
-<section data-cid="slide-105-df3a17b7" class="slide fade-6" data-title="ARTISTS" data-name="slide-105-df3a17b7">
-  <div class="content">
-    <div class="container">
-      <div class="wrap">
 
-        <div class="fix-12-12">
-          <div class="swiper-105">
-            <div class="swiper-wrapper">
-              <div class="box-105 swiper-slide noText overflow-hidden cursorGrab fromCenter">
-                  <div class="thumbnail-105 text-white disableSelect">
-                    <div class="black rounded absolute position-top position-bottom wide ae-1">
-                      <div class="poster poster-105 rounded opacity-3" style="background-image:url(assets/uploads/vinnie11.jpg?p=q3j4yRhV)"></div>
-                    </div>
-                    <div class="absolute bolder font-size-21 number-105 ae-2">ALL MONEY IN AFRICA</div> 
-                    <div class="absolute align-left inner-105 ae-3">
-                      <h2 class="smallest margin-bottom-2">Vinnie Raps</h2>
-                      <p class="margin-bottom-2">Vinnie Raps is a renowned lyricist celebrated for his sharp, introspective wordplay and thought-provoking bars. As a core member of ALL MONEY IN Africa, Vinnie’s lyrical depth and storytelling ability set him apart in the African hip-hop scene. His raw, authentic style connects deeply with listeners, making him a powerful voice in the music &nbsp;industry. </p>
-                      <div>
-                            <a class="opacity-5 margin-right-2" href="#">
-                          <svg width="18" height="18" fill="#ffffff" class="noFill middle"><use href="#spotify"></use></svg>  								</a>
-                          <a class="opacity-5 margin-right-2" href="#">
-                          <svg width="18" height="18" fill="#ffffff" class="noFill middle"><use href="#twitter"></use></svg>  								</a>
-                          <a class="opacity-5 margin-right-2" href="#">
-                          <svg width="18" height="18" fill="#ffffff" class="noFill middle"><use href="#pinterest"></use></svg>  								</a>
-                          <a class="opacity-5 margin-right-2" href="#">
-                          <svg width="18" height="18" fill="#ffffff" class="noFill middle"><use href="#youtube"></use></svg>  								</a>
-                          <a class="opacity-5 margin-right-2" href="#">
-                          <svg width="18" height="18" fill="#ffffff" class="noFill middle"><use href="#instagram2"></use></svg>  								</a>
-                        <a class="opacity-5 margin-right-2" href="#">
-                          <svg width="19" height="18" fill="#ffffff" class="noFill middle"><use href="#snapchat"></use></svg> 
-                        </a>  
-                        <a class="opacity-5 margin-right-2" href="#">
-                          <svg width="19" height="18" fill="#ffffff" class="noFill middle"><use href="#apple"></use></svg> 
-                        </a>
-                        <a class="opacity-5" href="#">
-                          <svg width="18" height="18" fill="#ffffff" class="noFill middle"><use href="#facebook2"></use></svg>
-                        </a>
-                      
-                      </div>                      
-                    </div>
-                  </div>
-               </div>
-               <div class="box-105 swiper-slide noText cursorGrab fromCenter">
-                  <div class="thumbnail-105 text-white disableSelect">
-                    <div class="black rounded absolute position-top position-bottom wide ae-2">
-                      <div class="poster poster-105 rounded opacity-3" style="background-image:url(assets/uploads/img-20240725-190658.jpg?p=q3j4yRhV)"></div>
-                    </div>
-                    <div class="absolute bolder font-size-21 number-105 ae-3">ALL MONEY IN AFRICA</div> 
-                    <div class="absolute align-left inner-105 ae-4">
-                      <h2 class="smallest margin-bottom-2">KOKAINE</h2>
-                      <p class="margin-bottom-2">Kokaine is a multifaceted trap hip-hop artist, lyricist, and producer known for his ability to craft hard-hitting beats and deliver gritty street narratives. As a key figure in ALL MONEY IN Africa, his versatility and innovative sound make him a driving force in the label's creative direction. Kokaine's unique style blends raw energy with sharp lyricism, cementing his place as a standout artist in the African hip-hop &nbsp;scene.</p>
-                      <div>
-                          <a href="https://open.spotify.com/artist/43EGvmB25vSx7isyKQBiN7?si=-WAE_DMqTyqy8Yx1ewPQxw" class="opacity-5 margin-right-2" href="#">
-                          <svg width="18" height="18" fill="#ffffff" class="noFill middle"><use href="#spotify"></use></svg>  								</a>
-                          <a href="https://x.com/hunny_kokaine?t=LYZJOL01jSB_87B8TNKBjg&s=09" class="opacity-5 margin-right-2" href="#">
-                          <svg width="18" height="18" fill="#ffffff" class="noFill middle"><use href="#twitter"></use></svg>  								</a>
-                          <a href="https://youtube.com/@kokaine_oog?si=Ttzjtcu_WPYHgL6S" class="opacity-5 margin-right-2" href="#">
-                          <svg width="18" height="18" fill="#ffffff" class="noFill middle"><use href="#youtube"></use></svg>  								</a>
-                          <a class="opacity-5 margin-right-2" href="#">
-                          <svg width="18" height="18" fill="#ffffff" class="noFill middle"><use href="#instagram2"></use></svg>  								</a>  
-                        <a href="https://music.apple.com/za/artist/kokaine/1766767541?ls" class="opacity-5 margin-right-2" href="#">
-                          <svg width="19" height="18" fill="#ffffff" class="noFill middle"><use href="#apple"></use></svg> 
-                        </a>
-                       
-                      
-                      </div>                     
-                    </div>
-                  </div>
-               </div>
-               <div class="box-105 swiper-slide noText cursorGrab fromCenter">
-                  <div class="thumbnail-105 text-white disableSelect">
-                    <div class="black rounded absolute position-top position-bottom wide ae-3">
-                      <div class="poster poster-105 rounded opacity-3" style="background-image:url(assets/uploads/photo-2024-10-13-01-44-08.jpg?p=q3j4yRhV)"></div>
-                    </div>
-                    <div class="absolute bolder font-size-21 number-105 ae-4">ALL MONEY IN AFRICA</div> 
-                    <div class="absolute align-left inner-105 ae-5">
-                      <h2 class="smallest margin-bottom-2">TRXLL DA KID</h2>
-                      <p class="margin-bottom-2">Astroe The Kid is a visionary music producer known for his futuristic, genre-blending beats. His innovative soundscapes define the sonic identity of ALL MONEY IN Africa, making him a key player in shaping the label’s cutting-edge music. With a talent for pushing creative boundaries, Astroe continues to craft beats that set trends and captivate audiences across the &nbsp;continent.</p>
-                      <div>
-                           <a class="opacity-5 margin-right-2" href="#">
-                          <svg width="18" height="18" fill="#ffffff" class="noFill middle"><use href="#spotify"></use></svg>  								</a>
-                          <a class="opacity-5 margin-right-2" href="#">
-                          <svg width="18" height="18" fill="#ffffff" class="noFill middle"><use href="#twitter"></use></svg>  								</a>
-                          <a class="opacity-5 margin-right-2" href="#">
-                          <svg width="18" height="18" fill="#ffffff" class="noFill middle"><use href="#pinterest"></use></svg>  								</a>
-                          <a class="opacity-5 margin-right-2" href="#">
-                          <svg width="18" height="18" fill="#ffffff" class="noFill middle"><use href="#youtube"></use></svg>  								</a>
-                          <a class="opacity-5 margin-right-2" href="#">
-                          <svg width="18" height="18" fill="#ffffff" class="noFill middle"><use href="#instagram2"></use></svg>  								</a>
-                        <a class="opacity-5 margin-right-2" href="#">
-                          <svg width="19" height="18" fill="#ffffff" class="noFill middle"><use href="#snapchat"></use></svg> 
-                        </a>  
-                        <a class="opacity-5 margin-right-2" href="#">
-                          <svg width="19" height="18" fill="#ffffff" class="noFill middle"><use href="#apple"></use></svg> 
-                        </a>
-                        <a class="opacity-5" href="#">
-                          <svg width="18" height="18" fill="#ffffff" class="noFill middle"><use href="#facebook2"></use></svg>
-                        </a>
-                      
-                      </div>                     
-                    </div>
-                  </div>
-                </div>
-                <div class="box-105 swiper-slide noText cursorGrab fromCenter">
-                  <div class="thumbnail-105 text-white disableSelect">
-                    <div class="black rounded absolute position-top position-bottom wide ae-1">
-                      <div class="poster poster-105 rounded opacity-3" style="background-image:url(assets/uploads/saveclip-app-448021625-471035992069150-6687120611891357405-n.jpg?p=q3j4yRhV)"></div>
-                    </div>
-                    <div class="absolute bolder font-size-21 number-105 ae-5">ALL MONEY IN AFRICA</div> 
-                    <div class="absolute align-left inner-105 ae-6">
-                      <h2 class="smallest margin-bottom-2">ZIA MEJENI</h2>
-                      <p class="margin-bottom-2">Zia Mejeni is an emerging female DJ, content creator, and vlogger, known for blending music, lifestyle, and culture through her vibrant storytelling and growing presence in the African music scene.&nbsp;Known for her vibrant personality and eclectic taste in music, she’s quickly making a name for herself in the industry.</p>
-                      <div>
-                           <a class="opacity-5 margin-right-2" href="#">
-                          <svg width="18" height="18" fill="#ffffff" class="noFill middle"><use href="#spotify"></use></svg>  								</a>
-                          <a class="opacity-5 margin-right-2" href="#">
-                          <svg width="18" height="18" fill="#ffffff" class="noFill middle"><use href="#twitter"></use></svg>  								</a>
-                          <a class="opacity-5 margin-right-2" href="#">
-                          <svg width="18" height="18" fill="#ffffff" class="noFill middle"><use href="#pinterest"></use></svg>  								</a>
-                          <a class="opacity-5 margin-right-2" href="#">
-                          <svg width="18" height="18" fill="#ffffff" class="noFill middle"><use href="#youtube"></use></svg>  								</a>
-                          <a class="opacity-5 margin-right-2" href="#">
-                          <svg width="18" height="18" fill="#ffffff" class="noFill middle"><use href="#instagram2"></use></svg>  								</a>
-                        <a class="opacity-5 margin-right-2" href="#">
-                          <svg width="19" height="18" fill="#ffffff" class="noFill middle"><use href="#snapchat"></use></svg> 
-                        </a>  
-                        <a class="opacity-5 margin-right-2" href="#">
-                          <svg width="19" height="18" fill="#ffffff" class="noFill middle"><use href="#tiktok2"></use></svg> 
-                        </a>
-                        <a class="opacity-5" href="#">
-                          <svg width="18" height="18" fill="#ffffff" class="noFill middle"><use href="#facebook2"></use></svg>
-                        </a>
-                      
-                      </div>                     
-                    </div>
-                  </div>
-                </div>                           
-              </div>
-
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
-  <div class="background opacity-5" style="background-image:url(assets/img/background/img-105.jpg)"></div>
-</section>
 <!-- EVENTS (#11) -->
 <section data-cid="slide-97-d07b930b" class="slide fade-6 kenBurns" data-title="EVENTS" data-name="slide-97-d07b930b">
   <div class="content">
@@ -1398,7 +1409,7 @@
       </div>
     </div>
   </div>
-  <div class="background" style="background-image:url(assets/img/background/img-97.jpg)"></div>
+  <div class="background" style="background-image:url(assets/img/background/)"></div>
 </section>
 <!-- Panel Bottom 13 -->
 <div data-cid="panel-bottom-13-f05e06a1">
@@ -1406,9 +1417,16 @@
   <div class="sections">
     <div class="center">
       <ul class="menu crop">
-        <li><a href="http://facebook.com/designmodo" target="_blank"><svg><use href="#facebook"></use></svg></a></li>
-        <li><a href="http://twitter.com/designmodo" target="_blank"><svg><use href="#twitter"></use></svg></a></li>
-        <li><a href="http://instagram.com/designmodo" target="_blank"><svg><use href="#instagram"></use></svg></a></li>
+        <li><a href="https://www.facebook.com/VinnieRaps?mibextid=JRoKGi" target="_blank"><svg><use href="#facebook"></use></svg></a></li>
+        <li><a href="https://x.com/AMI_Afrika?t=_RUpW28ruEcqQceYsm23YA&s=09" target="_blank"><svg><use href="#twitter"></use></svg></a></li>
+        <li><a href="https://www.instagram.com/allmoneyinafrica?igsh=NGpycXVwbXdydnc=" target="_blank"><svg><use href="#instagram"></use></svg></a></li>
+        <li class="cropRight">
+          <a href="mailto:allmoneyinafrika@gmail.com" class="trimRight" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+              <path d="M20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6C22 4.9 21.1 4 20 4ZM20 8.8L12 13 4 8.8V6L12 10.2L20 6V8.8Z" />
+            </svg>
+          </a>
+        </li> 
       </ul>
     </div>
   </div>
